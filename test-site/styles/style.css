@@ -1,0 +1,53 @@
+/*修改网页中段落的样式*/
+/*p{color: red;
+	width: 500px;
+	border: 1px solid black;
+}*/
+/*修改网页中多个元素的样式*/
+/*p,li,h1{
+	color: red;
+}*/
+/*修改网页中字体和文本的样式*/
+p,li{
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/*定义页面主标题并添加样式*/
+h1{
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+html{
+	/*px表示像素：基础字号为10像素*/
+	font-size: 10px;
+	/*Google fonts输出的CSS*/
+	font-family: 'Open Sans', sans-serif;
+	/*更改页面颜色*/
+	background-color: #00539F;
+}
+
+body{
+	/*强制页面永远保持 600 像素宽*/
+	width: 600px;
+	/*为 margin 或 padding 等属性设置两个值时，第一个值代表元素的上方和下方（在这个例子中设置为 0），而第二个值代表左边和右边（在这里，auto 是一个特殊的值，意思是水平方向上左右对称）*/
+	margin: 0 auto;
+	/*指定元素的背景颜色*/
+	background-color: #FF9500;
+	/*我们给内边距设置了四个值来让内容四周产生一点空间。*/
+	padding: 0 20px 20px 20px;
+	/*直接为 body 设置 5 像素的黑色实线边框*/
+	border: 5px solid black;
+}
+
+/*图像居中*/
+img {
+  display: block;
+  margin: 0 auto;
+}
